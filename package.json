@@ -1,0 +1,14 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ujin43255252/movieql",
+  "author": "ujin43255252 <ujin43255252@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.14.10"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
