@@ -6,9 +6,15 @@
   "author": "ujin43255252 <ujin43255252@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.14.10"
+    "graphql-yoga": "^1.14.10",
+    "node-fetch": "^2.1.2"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
   }
 }
